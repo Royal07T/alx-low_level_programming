@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * Print_remaining_days - Entry
- * and print how many is left
- * @month: month in number format
- * @day: day of month
- * @year: year
+ * print_remaining_days - Entry
+ * @month: parameter month
+ * @day:parameter day
+ * @year: parameter year
  * Retun: void
  */
 

@@ -4,7 +4,6 @@
  * _strpbrk - search a string for any of a set of byte
  * @s: source string
  * @accept: accepted character
- *
  * Return: the string since the first found accepted
  */
 char *_strpbrk(char *s, char *accept)
@@ -14,7 +13,6 @@ char *_strpbrk(char *s, char *accept)
 	while (s[a])
 	{
 		b = 0;
-
 		while (accept[b])
 		{
 			if (s[a] == accept[b])
